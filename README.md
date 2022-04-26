@@ -1,5 +1,7 @@
 ## Ao Clonar o Repositório
 
+<bold> Lembre de criar um `.env` copiar todos os arquivos do `.env.exemple` e configurar o `banco de dados`</bold>
+
 <bold> Rode `composer install` na diretório do repositório local </bold>
 
 <bold> Se der erro no `composer install` rode o `composer update` na diretório do repositório local </bold>
