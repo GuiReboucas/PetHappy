@@ -1,0 +1,53 @@
+.siteBlindado{
+    height: 100px;
+    width: 200px;
+    margin-left: 85%;
+    margin-bottom: 20%;
+   
+
+}
+.text-uppercase{
+    font-weight: bold;    
+}
+.list-unstyled{
+    margin-top: 20px;
+}
+.iconesFooter img{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+
+}
+.iconesFooterPetHappy img{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    display:inline-block;
+    vertical-align:top;
+    
+}
+.iconesFooterPetHappy p{
+    margin-top: 15px;
+    
+    display:inline-block;
+}
+.fd li{
+    margin-top: 20px;
+}
+.rt{
+    margin: 25px;
+}
+.logo {
+    align-items: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.menu a{
+    
+    font-size: 30px;
+    margin: 10px;
+    color: red;
+}
+
