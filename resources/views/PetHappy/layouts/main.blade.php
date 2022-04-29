@@ -46,6 +46,7 @@
     </style>
 </head>
 <body>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <!-- Container wrapper -->
             <div class="container-fluid">
@@ -100,10 +101,20 @@
             <!-- Container wrapper -->
           </nav>
    
-          @yield('content')
+          
    
     
-    
+          <main>
+            <div class="container-fluid">
+              <div class="row">
+                @if(session('msg'))
+                  <p class="msg">{{ session('msg') }}</p>
+                @endif
+                @yield('content')
+              </div>
+            </div>
+          </main>
+          
    
     <footer class="bg-light text-center text-lg-start">
             <!-- Grid container -->
@@ -187,8 +198,9 @@
               </div>
               <!--Grid row-->
             </div>
-            <!-- Grid container -->
             
+            <!-- Grid container -->
+           
           
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">

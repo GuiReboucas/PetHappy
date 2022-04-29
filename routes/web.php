@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('pagina-inicial', function() {
     return view('PetHappy.pagina-inicial');
 });
+
+Route::get('sobre', function() {
+    return view('sobre');
+}); 
