@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('pagina-inicial', function() {
+Route::get('home', function() {
     return view('PetHappy.pagina-inicial');
 });
 
