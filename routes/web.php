@@ -13,11 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('pagina-inicial', function() {
+
+Route::get('/', function() {
     return view('PetHappy.pagina-inicial');
 });
 

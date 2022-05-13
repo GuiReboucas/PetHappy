@@ -1,11 +1,6 @@
-.siteBlindado{
-    height: 100px;
-    width: 200px;
-    margin-left: 85%;
-    margin-bottom: 20%;
-   
+/*NAVBAR*/
 
-}
+
 .text-uppercase{
     font-weight: bold;    
 }
@@ -51,3 +46,77 @@
     color: red;
 }
 
+
+/*SLIDES*/
+
+
+.oneSlyde{
+    background-color: aqua;
+    
+}
+.oneSlyde button{
+    background-color: red;
+    margin-bottom: 10%;
+}
+.oneSlydeTitulo{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.oneSlydeParagrafo{
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+    
+
+}
+
+/* cards Iniciais*/
+
+
+.tituloCard{
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+
+/* ajude tambem nossos parceiros */
+.campanha{
+    background-color: #d3d3d3;
+    height: 700px;
+    
+
+}
+.retangulo h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#rf {
+    width: 100px;
+    height: 100px;
+}
+
+.abaixo {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+/* FOOTER*/
+
+.siteBlindado{
+    height: 100px;
+    width: 200px;
+    margin-left: 85%;
+    margin-bottom: 20%;
+   
+
+}
