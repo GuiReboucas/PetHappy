@@ -30,7 +30,7 @@
 <body>
   <!-- Menu-->
   <header>
-    <div class="container " id="nav-container">
+    <div class="container-fluid " id="nav-container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
           <a href="#" class="navbar-brand">
@@ -52,20 +52,13 @@
   </header>
 
   <!-- Repetidor da main nas outras paginas(section)-->
-  <main>
-    <div class="container-fluid">
-      <div class="row">
-        @if(session('msg'))
-          <p class="msg">{{ session('msg') }}</p>
-        @endif
-        @yield('content')
-      </div>
-    </div>
-  </main>
+ 
+  @yield('content')
+     
 
 <!-- Rodapé-->   
-<footer class="bg-light text-center text-lg-start">
-  <div class="container">
+<footer class="bg-light text-center text-lg-start ">
+  <div class="container-fluid colorFooter p-3">
     <div class="row">
       <!--Pet Happy-->
       <div class="col-lg-2  mb-4 mb-md-0">
@@ -117,11 +110,15 @@
       </div>
 
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          Copyright © 2022 Pet Happy. Todos direitos reservados.
-      </div>   
+        
     </div>
+    
   </div>
+  
+  <div class="text-center p-3 colorFooter" >
+    Copyright © 2022 Pet Happy. Todos direitos reservados.
+  </div> 
+  
 </footer>
   
 
