@@ -20,3 +20,7 @@ Route::get('/', function() {
 Route::get('sobre', function() {
     return view('sobre');
 }); 
+
+Route::get('instituicoes', function() {
+    return view('PetHappy.instituicoes');
+}); 
