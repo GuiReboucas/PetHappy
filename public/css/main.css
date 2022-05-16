@@ -4,7 +4,7 @@ body
 {
     font-family: 'Roboto', sans-serif;
 }
-/* Barra de Navegação */
+/* Rodapé */
 footer h5{
     font-weight: bold;
 }
@@ -15,23 +15,3 @@ footer .iconesFooterPetHappy img{
 .colorFooter{
     background-color: #79797933;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
