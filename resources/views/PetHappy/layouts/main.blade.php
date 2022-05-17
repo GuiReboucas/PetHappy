@@ -37,11 +37,7 @@
 						PetHappy
 					</a>
 					<!-- Botão Responsivo -->
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
-						aria-controls="navbar-links" 
-						aria-expanded="false" 
-						aria-label="toggle navigation"
-					>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<!-- Nav Links -->
@@ -80,10 +76,15 @@
 	<!-- Rodapé -->
 	<footer class="bg-light text-black pt-5 pb-4">
 		<div class="container text-center text-md-left">
-			<div class="row text-center text-md-left">
-				
-				<!--Redes Socias-->
+			<div class="row text-start text-md-left">
+				<!-- PetHappy -->
 				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+					<h5 class="text-uppercase mb-4 font-weight-bold">PetHappy</h5>
+					<p>*Descrição da Empresa*</p>
+				</div>
+
+				<!--Redes Socias-->
+				<!-- <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
 					<h5 class="text-uppercase mb-0 rt">Redes Socias</h5>
 					<div class="iconesFooter">
 						<a href="https://pt-br.facebook.com/"><img src="./img/facebook.png" style="height: 35px"></a>
@@ -91,36 +92,40 @@
 						<a href="https://www.whatsapp.com/"><img src="./img/whatsapp.png" style="height: 35px" /></a>
 						<a href="https://twitter.com/"><img src="./img/twitter.png" style="height: 35px"></a>
 					</div>
-				</div>
-				
+				</div> -->
+
 				<!--Colabore-->
 				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 class="text-uppercase rt">Colabore</h5>
-					<ul class="list-unstyled mb-0 fd">
-						<li><a href="#!" class="text-dark">Doe Qualquer valor </a></li>
-						<li><a href="#!" class="text-dark">Divulgue a PatHappy </a></li>
+					<h5 class="text-uppercase mb-4 font-weight-bold">Colabore</h5>
+					<ul class="list-unstyled mb-0 ">
+						<li><a href="#!" class="text-dark text-decoration-none">Doe Qualquer valor</a></li>
+						<li><a href="#!" class="text-dark text-decoration-none">Divulgue a PatHappy</a></li>
+						<li><a href="#!" class="text-dark text-decoration-none">Seja nosso Parceiro!</a></li>
 					</ul>
 				</div>
-				
+
 				<!-- Suporte -->
 				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 class="text-uppercase mb-0 rt">Suporte</h5>
+					<h5 class="text-uppercase mb-4 font-weight-bold">Suporte</h5>
 					<ul class="list-unstyled fd">
-						<li><a href="#!" class="text-dark">Perguntas Frequentes</a></li>
-						<li><a href="#!" class="text-dark">Mapa do site</a></li>
-						<li><a href="#!" class="text-dark">Reportar erro</a></li>
+						<li><a href="#!" class="text-dark text-decoration-none">Perguntas Frequentes (FAQ)</a></li>
+						<li><a href="#!" class="text-dark text-decoration-none">Mapa do site</a></li>
+						<li><a href="#!" class="text-dark text-decoration-none">Reportar erro</a></li>
 					</ul>
 				</div>
-				
+
 				<!-- Contato -->
 				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 class="text-uppercase">Entre em contato</h5>
-					<ul class="list-unstyled mb-0 iconesFooterPetHappy">
+					<h5 class="text-uppercase mb-4 font-weight-bold">Entre em contato</h5>
+					<ul class="list-unstyled iconesFooterPetHappy">
 						<li>
-							<p><img src="./img/chamada-telefonica.png" style="height: auto">(75) 9 9999-9999</p>
+							<p><img src="./img/chamada-telefonica.png" class="me-3">(75) 9 9999-9999</p>
 						</li>
 						<li>
-							<p><img src="./img/o-email.png" style="height: auto">pethappy@gmail.com</p>
+							<p><img src="./img/o-email.png" class="me-3">pethappy@gmail.com</p>
+						</li>
+						<li>
+							<p><i class="fa fa-print me-3"></i>Printer</p>
 						</li>
 					</ul>
 				</div>
@@ -133,10 +138,44 @@
 					<img class="selo" src=".\img\selo-ra.png" style="height: 35px">
 					<img class="selo" src=".\img\selo-google-site-seguro.png" style="height: 35px">
 				</div> -->
-				
-				<!-- Copyright -->
-				<div class="text-center p-3">
-					Copyright © 2022 Pet Happy. Todos direitos reservados.
+				<hr class="mb-4">
+
+				<div class="row align-items-center">
+					<!-- Copyright -->
+					<div class="col-md-7 col-lg-8">
+						<p> Copyright © 2022 Todos direitos reservados por:
+							<a href="#" class="text-decoration-none text-black">
+								<strong class="">Pet Happy</strong>
+							</a>
+						</p>
+					</div>
+
+					<div class="col-md-5 col-lg-4">
+						<div class="text-end text-lg-right">
+							<ul class="list-unstyled list-inline social-media-buttons">
+								<li class="list-inline-item mx-2">
+									<a href="https://pt-br.facebook.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+										<i class="fab fa-facebook"></i>
+									</a>
+								</li>
+								<li class="list-inline-item mx-2">
+									<a href="https://www.instagram.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li class="list-inline-item mx-2">
+									<a href="https://www.whatsapp.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+										<i class="fab fa-whatsapp"></i>
+									</a>
+								</li>
+								<li class="list-inline-item mx-2">
+									<a href="https://twitter.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
