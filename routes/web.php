@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('abrigo');
+    return view('PetHappy/abrigo');
 });
 
 Route::get('pagina-inicial', function() {
