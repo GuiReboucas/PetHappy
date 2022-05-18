@@ -12,9 +12,10 @@
                 <div class="card-body">
                     <h5 class="card-title text-center fw-bold text-light">Patinhas Pet Hostel</h5><br>
                     <p class="text-light">Nossa História</p>
-                    <p class="historia text-justify bg-light p-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique vitae aperiam. Deserunt dolor magni eveniet vero praesentium possimus, amet necessitatibus alias sapiente quis totam natus explicabo animi est eos?
+                    <p class="historia text-justify bg-light p-1 rounded-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique vitae aperiam. Deserunt dolor magni eveniet vero praesentium possimus, amet necessitatibus alias sapiente quis totam natus explicabo animi est eos?
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat odio laborum pariatur error nam recusandae? Unde ipsam vero amet, impedit commodi rem perferendis! Soluta at hic aut ratione inventore ut!
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt facilis dolor fugiat maxime illum quo quas at ab magnam, a quibusdam sint in optio quia qui veniam accusamus? Harum, voluptate.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi consectetur sint perferendis commodi temporibus ratione debitis velit, nobis incidunt fugit voluptatum iusto, ullam ducimus delectus? Aperiam sapiente odit esse?
                     </p>
                 </div>
             </div>
