@@ -3,11 +3,11 @@
     width: 200px;
     margin-left: 85%;
     margin-bottom: 20%;
-   
+
 
 }
 .text-uppercase{
-    font-weight: bold;    
+    font-weight: bold;
 }
 .list-unstyled{
     margin-top: 20px;
@@ -25,11 +25,11 @@
     width: 20px;
     display:inline-block;
     vertical-align:top;
-    
+
 }
 .iconesFooterPetHappy p{
     margin-top: 15px;
-    
+
     display:inline-block;
 }
 .fd li{
@@ -45,9 +45,84 @@
     margin-right: 50px;
 }
 .menu a{
-    
+
     font-size: 30px;
     margin: 10px;
     color: red;
+}
+
+.card-group{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.abrigo{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card{
+    margin: 0 auto;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    background: rgb(151, 107, 239);
+    box-shadow: 2px 3px 10px rgb(30, 90, 228);
+}
+
+.cardimg{
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.img{
+    margin-top: 10px;
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+}
+
+.imgpessoa{
+    margin-top: 10px;
+    border-radius: 10%;
+    width: 210px;
+    height: 150px;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 100px;
+}
+
+.historia{
+    font-size: 12px;
+}
+
+.horario{
+    width: 100%;
+    font-size: 12px;
+}
+
+.mapa{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+}
+
+.card-body{
+    width: 100%;
+    margin: auto;
+}
+
+.card-text{
+    font-size: 15px;
 }
 
