@@ -4,6 +4,7 @@
 @section('content')
 
 <body>
+    <!-- Inicio - Equipe/História/Localização -->
     <section>
         <div class="container abrigo">
             <div class="card-group">
@@ -65,7 +66,56 @@
             </div>
         </div>
     </section>
+    <!-- Meio - Nossos trabalhos -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sectionCarrosel">
+                        <div id="carouselExampleControl" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-75 me-0" alt="Quem Somos">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../img/abrigo/atuacao/atuacao2.jpg" id="imgBanner" class="d-block w-75 me-0" alt="Agência">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../img/abrigo/atuacao/atuacao3.jpg" id="imgBanner" class="d-block w-75 me-0" alt="Marketing">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../img/abrigo/atuacao/atuacao4.jpg" id="imgBanner" class="d-block w-75 me-0" alt="Contato">
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium magnam iste illo. Assumenda iste autem rerum sapiente labore modi cupiditate, laboriosam corporis explicabo! Modi aut error id at voluptas.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ratione dolorem quis! Aspernatur, et consequuntur reiciendis dolorum assumenda beatae? Adipisci repellat libero, cupiditate odit illo corporis velit debitis dolorum facere?
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Meio - Nossos pets -->
     <section>
 
     </section>
