@@ -75,8 +75,8 @@
 
 	<!-- Rodapé -->
 	<footer class="bg-light text-black pt-5 pb-4">
-		<div class="container text-center text-md-left">
-			<div class="row text-start text-md-left">
+		<div class="container text-center text-md-start">
+			<div class="row text-center text-md-start">
 				<!-- PetHappy -->
 				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
 					<h5 class="text-uppercase mb-4 font-weight-bold">PetHappy</h5>
@@ -95,7 +95,7 @@
 				</div> -->
 
 				<!--Colabore-->
-				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
 					<h5 class="text-uppercase mb-4 font-weight-bold">Colabore</h5>
 					<ul class="list-unstyled mb-0 ">
 						<li><a href="#!" class="text-dark text-decoration-none">Doe Qualquer valor</a></li>
@@ -105,7 +105,7 @@
 				</div>
 
 				<!-- Suporte -->
-				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
 					<h5 class="text-uppercase mb-4 font-weight-bold">Suporte</h5>
 					<ul class="list-unstyled fd">
 						<li><a href="#!" class="text-dark text-decoration-none">Perguntas Frequentes (FAQ)</a></li>
@@ -115,7 +115,7 @@
 				</div>
 
 				<!-- Contato -->
-				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 					<h5 class="text-uppercase mb-4 font-weight-bold">Entre em contato</h5>
 					<ul class="list-unstyled iconesFooterPetHappy">
 						<li>
@@ -151,7 +151,7 @@
 					</div>
 
 					<div class="col-md-5 col-lg-4">
-						<div class="text-end text-lg-right">
+						<div class="text-center text-md-end">
 							<ul class="list-unstyled list-inline social-media-buttons">
 								<li class="list-inline-item mx-2">
 									<a href="https://pt-br.facebook.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
@@ -168,7 +168,7 @@
 										<i class="fab fa-whatsapp"></i>
 									</a>
 								</li>
-								<li class="list-inline-item mx-2">
+								<li class="list-inline-item ms-2">
 									<a href="https://twitter.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
 										<i class="fab fa-twitter"></i>
 									</a>
