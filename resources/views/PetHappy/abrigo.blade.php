@@ -30,9 +30,33 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/abrigo/Bill_Gates_.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/abrigo/bill-gates.png" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
                                         <p class="text-light bg-primary badge bg-primary text-wrap">Daniel Gates</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/abrigo/STEVE-JOBS.pNg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-flex d-md-block">
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Silvio Jobs</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/abrigo/larry-Page.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-flex d-md-block">
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Thiago Page</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/abrigo/mark-zuckerber.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-flex d-md-block">
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Felps Zuckerber</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/abrigo/bezos.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-flex d-md-block">
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Lucas Bezos</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +97,7 @@
                 <div class="col-md-4">
                     <div class="sectionCarrosel">
                         <div id="carouselExampleControl" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" id="banner">
                                 <div class="carousel-item active" data-bs-interval="2000">
                                     <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-100 me-0" alt="Quem Somos">
                                 </div>
@@ -109,7 +133,7 @@
                 <div class="col-md-4">
                     <div class="sectionCarrosel">
                         <div id="carouselExampleControl" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" id="banner">
                                 <div class="carousel-item active" data-bs-interval="2000">
                                     <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-100 ms-0" alt="Quem Somos">
                                 </div>
@@ -133,7 +157,7 @@
                 <div class="col-md-4">
                     <div class="sectionCarrosel">
                         <div id="carouselExampleControl" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" id="banner">
                                 <div class="carousel-item active" data-bs-interval="2000">
                                     <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-100 me-0" alt="Quem Somos">
                                 </div>
@@ -169,7 +193,7 @@
                 <div class="col-md-4">
                     <div class="sectionCarrosel">
                         <div id="carouselExampleControl" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" id="banner">
                                 <div class="carousel-item active" data-bs-interval="2000">
                                     <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-100 ms-0" alt="Quem Somos">
                                 </div>
@@ -191,8 +215,44 @@
             </div><br>
         </div>
     </section>
-    <!-- Meio - Nossos pets -->
+    <!-- Meio - Apoio -->
     <section>
+        <div class="container-fluid trabalhos border border-1 w-75 mb-4">
+            <h3 class="text-center mt-4 mb-4">Apoie nosso trabalho</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium magnam iste illo. Assumenda iste autem rerum sapiente labore modi cupiditate, laboriosam corporis explicabo! Modi aut error id at voluptas.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ratione dolorem quis! Aspernatur, et consequuntur reiciendis dolorum assumenda beatae? Adipisci repellat libero, cupiditate odit illo corporis velit debitis dolorum facere?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat dolorem ullam laboriosam error nostrum recusandae autem dolores provident, possimus officiis corporis est placeat ut, optio debitis reprehenderit, doloremque exercitationem!
+                    </p>
+                </div>
+                <hr>
+            </div><br>
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>Como Ajudar</h4>
+                    <p class="text-start">
+                        <hr>
+                        <strong>PIX:(75)9999-9999</strong><br><br>
+                        <strong>Transferência bancária:</strong><br>
+                        Banco do Brasil<br>
+                        Agência: 1313-13<br>
+                        Conta: 13013-0<br>
+                        CNPJ:01.001.100-0001-01<br>
+                    </p>
+                    <a href="#">Clique aqui e veja outras formas de ajudar</a>
+                </div>
+                <div class="col-md-6">
+                    <p>Demais doações devem ser entregues em nosso abrigo.</p>
+                    <div class="ajuda">
+                        <div class="local">
+                            <iframe class="mapa2 border shadow-sm p-1 bg-body rounded rounded-3 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.4316346625205!2d-38.95097168561534!3d-12.219026748454738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7143903dbbf1785%3A0x7843ea34be97c354!2sPatinhas%20Pet%20Hostel!5e0!3m2!1spt-BR!2sbr!4v1652742476067!5m2!1spt-BR!2sbr" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div><br>
+                        <p>Rua Barra do São Francisco, nº 235 - Mangabeira - Feira de Santana-Ba</p>
+                    </div>
+                </div>
+            </div><br>
+        </div>
 
     </section>
 </body>
