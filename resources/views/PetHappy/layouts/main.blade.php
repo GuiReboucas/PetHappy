@@ -16,7 +16,7 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="./css/main.css">
 	<!-- Icons-->
-	<script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 	<!--Progress Bar-->
 	<script src="./js/progressbar.min.js"></script>
@@ -79,24 +79,13 @@
 			<div class="row text-center text-md-start">
 				<!-- PetHappy -->
 				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 class="text-uppercase mb-4 font-weight-bold">PetHappy</h5>
+					<h5 class="text-uppercase fw-bold mb-4 font-weight-bold">PetHappy</h5>
 					<p>*Descrição da Empresa*</p>
 				</div>
 
-				<!--Redes Socias-->
-				<!-- <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 class="text-uppercase mb-0 rt">Redes Socias</h5>
-					<div class="iconesFooter">
-						<a href="https://pt-br.facebook.com/"><img src="./img/facebook.png" style="height: 35px"></a>
-						<a href="https://www.instagram.com/"><img src="./img/instagram.png" style="height: 35px"></a>
-						<a href="https://www.whatsapp.com/"><img src="./img/whatsapp.png" style="height: 35px" /></a>
-						<a href="https://twitter.com/"><img src="./img/twitter.png" style="height: 35px"></a>
-					</div>
-				</div> -->
-
 				<!--Colabore-->
 				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-					<h5 class="text-uppercase mb-4 font-weight-bold">Colabore</h5>
+					<h5 class="text-uppercase fw-bold mb-4 font-weight-bold">Colabore</h5>
 					<ul class="list-unstyled mb-0 ">
 						<li><a href="#!" class="text-dark text-decoration-none">Doe Qualquer valor</a></li>
 						<li><a href="#!" class="text-dark text-decoration-none">Divulgue a PatHappy</a></li>
@@ -106,7 +95,7 @@
 
 				<!-- Suporte -->
 				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-					<h5 class="text-uppercase mb-4 font-weight-bold">Suporte</h5>
+					<h5 class="text-uppercase fw-bold mb-4 font-weight-bold">Suporte</h5>
 					<ul class="list-unstyled fd">
 						<li><a href="#!" class="text-dark text-decoration-none">Perguntas Frequentes (FAQ)</a></li>
 						<li><a href="#!" class="text-dark text-decoration-none">Mapa do site</a></li>
@@ -116,19 +105,20 @@
 
 				<!-- Contato -->
 				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 class="text-uppercase mb-4 font-weight-bold">Entre em contato</h5>
-					<ul class="list-unstyled iconesFooterPetHappy">
+					<h5 class="text-uppercase fw-bold mb-4 font-weight-bold">Entre em contato</h5>
+					<ul class="list-unstyled">
 						<li>
-							<p><img src="./img/chamada-telefonica.png" class="me-3">(75) 9 9999-9999</p>
+							<p><i class="fa-solid fa-house-chimney me-3"></i>Feira de Santana, BA</p>
 						</li>
 						<li>
-							<p><img src="./img/o-email.png" class="me-3">pethappy@gmail.com</p>
+							<p><i class="fa-solid fa-phone me-3"></i>(75) 9 9999-9999</p>
 						</li>
 						<li>
-							<p><i class="fa fa-print me-3"></i>Printer</p>
+							<p><i class="fa-solid fa-envelope me-3"></i>pethappy@gmail.com</p>
 						</li>
 					</ul>
 				</div>
+
 				<!--Site Blindado-->
 				<!-- <div class="col-md-2 mb-4 mb-md-0">
 					<img class="selo" src=".\img\siteBlindado.png" style="height: 35px">
@@ -138,43 +128,42 @@
 					<img class="selo" src=".\img\selo-ra.png" style="height: 35px">
 					<img class="selo" src=".\img\selo-google-site-seguro.png" style="height: 35px">
 				</div> -->
-				<hr class="mb-4">
-
-				<div class="row align-items-center">
-					<!-- Copyright -->
-					<div class="col-md-7 col-lg-8">
-						<p> Copyright © 2022 Todos direitos reservados por:
-							<a href="#" class="text-decoration-none text-black">
-								<strong class="">Pet Happy</strong>
-							</a>
-						</p>
-					</div>
-
-					<div class="col-md-5 col-lg-4">
-						<div class="text-center text-md-end">
-							<ul class="list-unstyled list-inline social-media-buttons">
-								<li class="list-inline-item mx-2">
-									<a href="https://pt-br.facebook.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
-										<i class="fab fa-facebook"></i>
-									</a>
-								</li>
-								<li class="list-inline-item mx-2">
-									<a href="https://www.instagram.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
-										<i class="fab fa-instagram"></i>
-									</a>
-								</li>
-								<li class="list-inline-item mx-2">
-									<a href="https://www.whatsapp.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
-										<i class="fab fa-whatsapp"></i>
-									</a>
-								</li>
-								<li class="list-inline-item ms-2">
-									<a href="https://twitter.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
-										<i class="fab fa-twitter"></i>
-									</a>
-								</li>
-							</ul>
-						</div>
+			</div>
+			<hr class="mb-4">
+			<div class="row align-items-center">
+				<!-- Copyright -->
+				<div class="col-md-7 col-lg-8">
+					<p> Copyright © 2022 Todos direitos reservados por:
+						<a href="#" class="text-decoration-none text-black">
+							<strong class="">Pet Happy</strong>
+						</a>
+					</p>
+				</div>
+				<!-- Redes Sociais -->
+				<div class="col-md-5 col-lg-4">
+					<div class="text-center text-md-end">
+						<ul class="list-unstyled list-inline">
+							<li class="list-inline-item">
+								<a href="https://pt-br.facebook.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+									<i class="fab fa-facebook"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.instagram.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.whatsapp.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+									<i class="fab fa-whatsapp"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://twitter.com/" class="text-black fs-4" target="_blank" rel="noopener noreferrer">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

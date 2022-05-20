@@ -1,15 +1,8 @@
-
 /* Gerais */
 body{
     font-family: 'Roboto', sans-serif;
 }
 /* Rodapé */
-footer h5{
-    font-weight: bold;
-}
-footer .iconesFooterPetHappy img{
-    width: 15px;
-}
 .colorFooter{
     background-color: #79797933;
 }
