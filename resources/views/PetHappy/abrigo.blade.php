@@ -96,7 +96,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="sectionCarrosel">
-                        <div id="carouselExampleControl" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div id="carouselExampleControl" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner" id="banner">
                                 <div class="carousel-item active" data-bs-interval="2000">
                                     <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-100 me-0" alt="Quem Somos">
@@ -156,7 +156,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="sectionCarrosel">
-                        <div id="carouselExampleControl" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div id="carouselExampleControl" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner" id="banner">
                                 <div class="carousel-item active" data-bs-interval="2000">
                                     <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-100 me-0" alt="Quem Somos">
@@ -255,6 +255,46 @@
             </div><br>
         </div>
 
+    </section>
+    <!-- Meio - Animais -->
+    <section>
+        <div class="container-fluid w-75">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Conheça nossos Amiguinhos!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
