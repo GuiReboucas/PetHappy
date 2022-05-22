@@ -258,13 +258,13 @@
     </section>
     <!-- Meio - Animais -->
     <section>
-        <div class="container-fluid w-75">
+        <div class="container-fluid w-75 pets border border-1 mb-3">
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Conheça nossos Amiguinhos!</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-lg-12">
                     <div class="card-group">
                         <div class="card">
