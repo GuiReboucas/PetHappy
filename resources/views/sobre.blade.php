@@ -1,16 +1,11 @@
-@extends('PetHappy.layouts.main')
+@extends('layouts.app')
 
+@section('title', 'Sobre')
+
+@section('styles') <!-- StyleSheet -->
+<link rel="stylesheet" href="#">
+@endsection
 
 @section('content')
-
-<body>
-
-
-<p>COLOQUE O CONTEUDO DA PAGINA AQUI NO BODY</p>
-
-
-
-
-</body>
 
 @endsection

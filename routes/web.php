@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function() {
-    return view('PetHappy.pagina-inicial');
+    return view('pagina-inicial');
 });
 
 Route::get('sobre', function() {
@@ -22,5 +22,5 @@ Route::get('sobre', function() {
 }); 
 
 Route::get('instituicoes', function() {
-    return view('PetHappy.instituicoes');
-}); 
+    return view('instituicoes');
+});
