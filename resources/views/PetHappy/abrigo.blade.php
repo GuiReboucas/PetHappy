@@ -18,7 +18,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card equipe">
+                <div class="card logo">
                     <h4 class="p-2 text-dark mt-4"><i class="fa-solid fa-people-group"></i> Nossa Equipe</h4>
                     <div class="slide">
                         <div id="carouselExampleSlidesOnly" class="fotoEquipe carousel slide carousel-fade" data-bs-ride="carousel" style="width: 300px; height: 200px">
@@ -264,34 +264,80 @@
                     <h2>Conheça nossos Amiguinhos!</h2>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col-lg-12">
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mb-3">
+                            <div class="col-lg-12">
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="img/animais/gato1.jpg" class="card-img-top pet-card" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Joaquim</h5>
+                                            <p class="card-text">Docil, carinhoso, sapeca e bagunceiro.</p>
+                                            <p class="card-text"><small class="text-muted">Vira-lata de 3 anos de idade</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/animais/cao1.jpg" class="card-img-top pet-card" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Piranha</h5>
+                                            <p class="card-text">Gosta de "ruar", late sempre que quer algo, assanhada com estranhos. Castrada.</p>
+                                            <p class="card-text"><small class="text-muted">Vira-lata de 2 anos de idade</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/animais/gato2.jpg" class="card-img-top pet-card" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Folgado</h5>
+                                            <p class="card-text">Muito dócil, gosta de ficar escondido, brinca bastante com sua bola de pano.</p>
+                                            <p class="card-text"><small class="text-muted">Vira-lata de 4 anos de idade</small></p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="row mb-3">
+                            <div class="col-lg-12">
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="img/animais/cao2.jpg" class="card-img-top pet-card" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Godofredo</h5>
+                                            <p class="card-text">Brincalhão, bagunceiro,late pouco. Adora correr atrás de carro.</p>
+                                            <p class="card-text"><small class="text-muted">Vira-lata de 2 anos de idade</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/animais/gato3.jpg" class="card-img-top pet-card" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Emanuelle</h5>
+                                            <p class="card-text">Sempre emburrada, não é de muito carinho, mas tásempre por perto. Fica na dela e não causa muita confusão. Não castrada.</p>
+                                            <p class="card-text"><small class="text-muted">Siamesa de 9 meses</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/animais/gato4.jpg" class="card-img-top pet-card" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carrasco</h5>
+                                            <p class="card-text">Adora cotucar os demais gatos, não tem medo de cachorro. Vive correndo e subindo em locais altos. Muito amigo e dócil com os tutores.</p>
+                                            <p class="card-text"><small class="text-muted">Vira-lata de 1 ano de idade</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
