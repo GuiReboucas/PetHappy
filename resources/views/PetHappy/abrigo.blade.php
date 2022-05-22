@@ -50,7 +50,7 @@
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="img/abrigo/mark-zuckerber.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
-                                        <p class="text-light bg-primary badge bg-primary text-wrap">Felps Zuckerber</p>
+                                        <p class="text-light bg-primary badge bg-primary ms-2">Felps Zuckerber</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
@@ -270,25 +270,25 @@
                         <div class="row mb-3">
                             <div class="col-lg-12">
                                 <div class="card-group">
-                                    <div class="card">
-                                        <img src="img/animais/gato1.jpg" class="card-img-top pet-card" alt="...">
-                                        <div class="card-body">
+                                    <div class="card p-2 border-0">
+                                        <div class="card-body mx-auto pet-img">
+                                            <img src="img/animais/gato1.jpg" class="card-img-top pet-card" alt="...">
                                             <h5 class="card-title">Joaquim</h5>
                                             <p class="card-text">Docil, carinhoso, sapeca e bagunceiro.</p>
                                             <p class="card-text"><small class="text-muted">Vira-lata de 3 anos de idade</small></p>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <img src="img/animais/cao1.jpg" class="card-img-top pet-card" alt="...">
-                                        <div class="card-body">
+                                    <div class="card p-2 mr-1 border-0">
+                                        <div class="card-body mx-auto pet-img">
+                                            <img src="img/animais/cao1.jpg" class="card-img-top pet-card" alt="...">
                                             <h5 class="card-title">Piranha</h5>
                                             <p class="card-text">Gosta de "ruar", late sempre que quer algo, assanhada com estranhos. Castrada.</p>
                                             <p class="card-text"><small class="text-muted">Vira-lata de 2 anos de idade</small></p>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <img src="img/animais/gato2.jpg" class="card-img-top pet-card" alt="...">
-                                        <div class="card-body">
+                                    <div class="card p-2 mr-1 border-0">
+                                        <div class="card-body mx-auto pet-img">
+                                            <img src="img/animais/gato2.jpg" class="card-img-top pet-card" alt="...">
                                             <h5 class="card-title">Folgado</h5>
                                             <p class="card-text">Muito dócil, gosta de ficar escondido, brinca bastante com sua bola de pano.</p>
                                             <p class="card-text"><small class="text-muted">Vira-lata de 4 anos de idade</small></p>
@@ -302,25 +302,25 @@
                         <div class="row mb-3">
                             <div class="col-lg-12">
                                 <div class="card-group">
-                                    <div class="card">
-                                        <img src="img/animais/cao2.jpg" class="card-img-top pet-card" alt="...">
-                                        <div class="card-body">
+                                    <div class="card p-2 mr-1 border-0">
+                                        <div class="card-body mx-auto pet-img">
+                                            <img src="img/animais/cao2.jpg" class="card-img-top pet-card" alt="...">
                                             <h5 class="card-title">Godofredo</h5>
                                             <p class="card-text">Brincalhão, bagunceiro,late pouco. Adora correr atrás de carro.</p>
                                             <p class="card-text"><small class="text-muted">Vira-lata de 2 anos de idade</small></p>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <img src="img/animais/gato3.jpg" class="card-img-top pet-card" alt="...">
-                                        <div class="card-body">
+                                    <div class="card p-2 mr-1 border-0">
+                                        <div class="card-body mx-auto pet-img">
+                                            <img src="img/animais/gato3.jpg" class="card-img-top pet-card" alt="...">
                                             <h5 class="card-title">Emanuelle</h5>
                                             <p class="card-text">Sempre emburrada, não é de muito carinho, mas tásempre por perto. Fica na dela e não causa muita confusão. Não castrada.</p>
                                             <p class="card-text"><small class="text-muted">Siamesa de 9 meses</small></p>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <img src="img/animais/gato4.jpg" class="card-img-top pet-card" alt="...">
-                                        <div class="card-body">
+                                    <div class="card p-2 mr-1 border-0">
+                                        <div class="card-body pet-img mx-auto">
+                                            <img src="img/animais/gato4.jpg" class="card-img-top pet-card" alt="...">
                                             <h5 class="card-title">Carrasco</h5>
                                             <p class="card-text">Adora cotucar os demais gatos, não tem medo de cachorro. Vive correndo e subindo em locais altos. Muito amigo e dócil com os tutores.</p>
                                             <p class="card-text"><small class="text-muted">Vira-lata de 1 ano de idade</small></p>
