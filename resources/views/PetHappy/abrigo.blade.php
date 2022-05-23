@@ -100,16 +100,16 @@
                         <div id="carouselExampleControl" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner" id="banner">
                                 <div class="carousel-item active" data-bs-interval="2000">
-                                    <img src="../img/abrigo/atuacao/atuacao1.jpeg" id="imgBanner" class="d-block w-100 me-0" alt="Quem Somos">
+                                    <img src="../img/abrigo/evento/vacinacao.webp" id="imgBanner" class="d-block w-100 me-0" alt="Vacinação">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="../img/abrigo/atuacao/atuacao2.jpg" id="imgBanner" class="d-block w-100 me-0" alt="Agência">
+                                    <img src="../img/abrigo/evento/vacinacao1.webp" id="imgBanner" class="d-block w-100 me-0" alt="Vacinação">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="../img/abrigo/atuacao/atuacao3.jpg" id="imgBanner" class="d-block w-100 me-0" alt="Marketing">
+                                    <img src="../img/abrigo/evento/vacinacao2.jpeg" id="imgBanner" class="d-block w-100 me-0" alt="Vacinação">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="../img/abrigo/atuacao/atuacao4.jpg" id="imgBanner" class="d-block w-100 me-0" alt="Contato">
+                                    <img src="../img/abrigo/evento/vacinacao4.jpg" id="imgBanner" class="d-block w-100 me-0" alt="Vacinação">
                                 </div>
                             </div>
                         </div>
@@ -117,9 +117,8 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <h4 class="text-center">Evento 1</h4>
-                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium magnam iste illo. Assumenda iste autem rerum sapiente labore modi cupiditate, laboriosam corporis explicabo! Modi aut error id at voluptas.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ratione dolorem quis! Aspernatur, et consequuntur reiciendis dolorum assumenda beatae? Adipisci repellat libero, cupiditate odit illo corporis velit debitis dolorum facere?
+                    <h4 class="text-center">Vacinação Solidária</h4>
+                    <p class="text-center">Nosso evento de vacinação solidária contou com a participação da equipe do abrigo Patinhas Pet Hotel, da clínica parceira VetMed e de nossa comunidade de voluntários AmoPet. A vacina ocorrida no último fim de semana foi um sucesso, abrangendo um grupo de 320 animais, com 164 cães e 156 felinos.
                     </p>
                 </div>
             </div><br>
