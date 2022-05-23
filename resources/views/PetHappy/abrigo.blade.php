@@ -26,37 +26,38 @@
                                 <div class="carousel-item active" data-bs-interval="2000">
                                     <img src="img/abrigo/elon-musk.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
-                                        <p class="text-light bg-primary badge bg-primary text-wrap">Guigas Musk</p>
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Guigas Musk<br>Diretor</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="img/abrigo/bill-gates.png" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
-                                        <p class="text-light bg-primary badge bg-primary text-wrap">Daniel Gates</p>
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Daniel Gates<br>Zelador</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="img/abrigo/STEVE-JOBS.pNg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
-                                        <p class="text-light bg-primary badge bg-primary text-wrap">Silvio Jobs</p>
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Silvio Jobs<br>Veterinário</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="img/abrigo/larry-Page.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
-                                        <p class="text-light bg-primary badge bg-primary text-wrap">Thiago Page</p>
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Thiago Page<br>Gerente</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="img/abrigo/mark-zuckerber.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
-                                        <p class="text-light bg-primary badge bg-primary ms-2">Felps Zuckerber</p>
+                                        <p class="text-light bg-primary badge bg-primary ms-2">Felps Zuckerber<br>Cuidador</p>
+                                        <!-- <p class="text-light bg-primary badge bg-primary ms-2">Cuidador</p> -->
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="img/abrigo/bezos.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-flex d-md-block">
-                                        <p class="text-light bg-primary badge bg-primary text-wrap">Lucas Bezos</p>
+                                        <p class="text-light bg-primary badge bg-primary text-wrap">Lucas Bezos<br>Assistente</p>
                                     </div>
                                 </div>
                             </div>
