@@ -36,7 +36,7 @@ class CreateAbrigosTable extends Migration
             $table->string('cnpj');
             $table->string('local');
             $table->string('endereco');
-            $table->string('animal_id');
+            $table->string('animais_id');
         });
     }
 

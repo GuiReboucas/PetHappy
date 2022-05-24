@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Abrigo;
 use Illuminate\Http\Request;
 
 class AbrigosController extends Controller
@@ -13,7 +14,9 @@ class AbrigosController extends Controller
      */
     public function index()
     {
-        //
+        $abrigos = Abrigo::all();
+
+        return view('abrigos.index', ['abrigos' => $abrigos]);
     }
 
     /**
@@ -23,7 +26,7 @@ class AbrigosController extends Controller
      */
     public function create()
     {
-        //
+        return view('abrigos.create');
     }
 
     /**
