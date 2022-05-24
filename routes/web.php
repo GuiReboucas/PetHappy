@@ -24,3 +24,13 @@ Route::get('pagina-inicial', function() {
 Route::get('sobre', function() {
     return view('sobre');
 });
+
+Route::prefix('abrigos')->group(function(){
+    Route::get('/', [AbrigosController::class, 'index'])->name('abrigos-index');
+    Route::get('/create', [AbrigosController::class, 'create'])->name('abrigos-create');
+    Route::post('/', [AbrigosController::class, 'store'])->name('abrigos-store');
+    Route::get('/{id}/edit', [AbrigosController::class, 'edit'])->where('id','[0-9]+')->name('abrigos-edit');
+    Route::put('/{id}', [AbrigosController::class, 'update'])->where('id','[0-9]+')->name('abrigos-update');
+    Route::delete('/{id}', [AbrigosController::class, 'destroy'])->where('id','[0-9]+')->name('abrigos-destroy');
+    Route::get('/{id}', [AbrigosController::class, 'show'])->name('abrigos-show');
+});
