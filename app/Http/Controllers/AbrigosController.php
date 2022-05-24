@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Abrigo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class AbrigosController extends Controller
 {
@@ -37,7 +38,43 @@ class AbrigosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $imageDB = null;
+
+        if($request->hasFile('logo')){
+            $image = $request->file('logo');
+            $name = time().'.'.$image->getClientOriginalExtension();
+            $destinationPath = public_path('/img/abrigo');
+            $image2 = $destinationPath."/".$name;
+            $imaged = Str::after($image2, 'public');
+            $imageDB = substr($imaged, 1);
+            $image->move($destinationPath, $name);
+        }
+
+        Abrigo::create([
+            'logo' => $imageDB,
+            'nome' => $request['nome'],
+            'historia' => $request['historia'],
+            'colaborador' => $request['colaborador'],
+            'funcao' => $request['funcao'],
+            'localizacao' => $request['localizacao'],
+            'hora_func' => $request['hora_func'],
+            'evento1' => $request['evento1'],
+            'img_evento1' => $request['img_evento1'],
+            'evento2' => $request['evento2'],
+            'img_evento2' => $request['img_evento2'],
+            'evento3' => $request['evento3'],
+            'img_evento3' => $request['img_evento3'],
+            'pix' => $request['pix'],
+            'banco' => $request['banco'],
+            'agencia' => $request['agencia'],
+            'conta' => $request['conta'],
+            'cnpj' => $request['cnpj'],
+            'local' => $request['local'],
+            'endereco' => $request['endereco'],
+            'animais_id' => $request['animais_id'],
+        ]);
+        $abrigos = Abrigo::all();
+        return view('abrigos.index', compact('abrigos'));
     }
 
     /**
@@ -48,7 +85,15 @@ class AbrigosController extends Controller
      */
     public function show($id)
     {
-        //
+        $abrigos = Abrigo::where('id', $id)->first();
+        if (!empty($abrigos))
+        {
+            return view('abrigos.show', ['abrigos'=>$abrigos]);
+        }
+        else
+        {
+            return redirect()->route('abrigos-index');
+        }
     }
 
     /**
@@ -59,7 +104,12 @@ class AbrigosController extends Controller
      */
     public function edit($id)
     {
-        //
+        $abrigos = Abrigo::where('id', $id)->first();
+        if (!empty($abrigos)) {
+            return view('abrigos.edit', ['abrigos' => $abrigos]);
+        } else {
+            return redirect()->route('abrigos-index');
+        }
     }
 
     /**
@@ -71,7 +121,31 @@ class AbrigosController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $data = [
+            'logo' => $request->logo,
+            'nome' => $request->nome,
+            'historia' => $request->historia,
+            'colaborador' => $request->colaborador,
+            'funcao' => $request->funcao,
+            'localizacao' => $request->localizacao,
+            'hora_func' => $request->hora_func,
+            'evento1' => $request->evento1,
+            'img_evento1' => $request->img_evento1,
+            'evento2' => $request->evento2,
+            'img_evento2' => $request->img_evento2,
+            'evento3' => $request->evento3,
+            'img_evento3' => $request->img_evento3,
+            'pix' => $request->pix,
+            'banco' => $request->banco,
+            'agencia' => $request->agencia,
+            'conta' => $request->conta,
+            'cnpj' => $request->cnpj,
+            'local' => $request->local,
+            'endereco' => $request->endereco,
+            'animais_id' => $request->animais_id,
+        ];
+        Abrigo::where('id', $id)->update($data);
+        return redirect()->route('abrigos-index');
     }
 
     /**
@@ -82,6 +156,7 @@ class AbrigosController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Abrigo::where('id', $id)->delete();
+        return redirect()->route('abrigos-index');
     }
 }
