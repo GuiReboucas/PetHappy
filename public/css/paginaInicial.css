@@ -1,8 +1,8 @@
 /* Cards Conheça nossos amiguinhos */
-.o{
-  padding-top: 100px;
-  margin-bottom: 200px;
+.cardAnimais {
+  height: 350px;
 }
+
 .colorCard{
   padding-top: 20px;
   border-radius: 30px;
