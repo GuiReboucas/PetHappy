@@ -7,98 +7,47 @@
 @endsection
 
 @section('content')
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1 class="mb-0 py-5">Bem Vindo a Plataforma, PetHappy</h1>
-			</div>
-		</div>
+	<div class="container-fluid text-center d-flex flex-column align-items-center mb-5" style="height: 290px; background-color: #C4C4C4;">
+		<h1 class="my-3">Bem Vindo ao PetHappy!</h1>
+		<p class="text-wrap" style="width: 60%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Praesent at urna vitae sapien mollis aliquam. Vestibulum ante
+		ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus nec odio quis quam rhoncus
+		auctor. Nullam tempus nibh in mi placerat, eget molestie odio laoreet. Nulla metus augue, auctor
+		at libero quis, sagittis blandit lectus. Curabitur commodo dui lacus, nec laoreet orci semper non.
+		Suspendisse laoreet volutpat tincidunt. Aenean posuere pretium nisl.</p>
+		<button type="button" class="btn btn-outline-dark rounded-pill px-4 mt-2"">Torne-se Nosso Parceiro</button>
 	</div>
 
-	<!-- Slide-->
-	<div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
-		<!-- Indicators -->
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		</div>
-		<!-- Slides -->
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./img/pagina-inicial/Slide 1.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="..." class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="..." class="d-block w-100" alt="...">
-			</div>
-		</div>
-		<!-- Controls -->
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
+	<!-- Introdução -->
+	<!-- <div class="container justify-content-start my-5">
+		<h3>Boas Vindas</h3>
+		<p class="text-wrap" style="font-size: 13px; width: 65%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed nibh ante. 
+			Vestibulum at lorem vel augue tristique consectetur. Pellentesque sed convallis neque. 
+			Suspendisse posuere sollicitudin leo, rutrum elementum ipsum posuere nec. 
+			Maecenas dictum mattis odio eu volutpat. Phasellus dictum accumsan molestie. Etiam convallis luctus eleifend. 
+			Sed iaculis mi quam, eu tincidunt quam elementum vel.</p>
+	</div> -->
 
 	<!-- Conheça alguns dos nosso amiguinhos -->
-	<div class="container-fluid mt-5">
+	<div class="container-fluid my-3" style="width: 95%;">
 		<div class="row">
-			<div class="col-md-12 colorCard">
+			<div class="col-md-12 rounded" style="background-color: rgb(255, 228, 196);">
+				<!-- Titulo -->
 				<div class="col-md-12 text-center">
 					<h1 class="top_s">Conheça alguns dos nossos amiginhos!</h1>
 				</div>
-				<div class="card-group ">
-					<div class="card border tamanhoCard rounded-9">
-						<img class="card-img-top rounded-9" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px;border-radius: 30px 30px 0px 0px">
-						<div class="card-body ">
-							<h2 class="card-title">Nome: Jorge</h2>
-							<h6 class=".card-subtitle">Ong: Cachorro feliz</h6>
-							<h6 class=".card-subtitle">Estado: Ba</h6>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap " style="height: 200px">
+				<!-- Cards -->
+				<div class="card-group">
+					<div class="card border" style="width: 200px; height: 350px;">
+						<img class="card-img-top" src="" alt="Imagem do Animal">
 						<div class="card-body">
-							<h2 class="card-title">Nome: Jorge</h2>
-							<h6 class="card-text">Ong: Cachorro feliz</h6>
-							<h6 class="card-text">Estado: Ba</h6>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px">
-						<div class="card-body">
-							<h2 class="card-title">Nome: Jorge</h2>
-							<h6 class="card-text">Ong: Cachorro feliz</h6>
-							<h6 class="card-text">Estado: Ba</h6>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px">
-						<div class="card-body">
-							<h2 class="card-title">Nome: Jorge</h2>
-							<h6 class="card-text">Ong: Cachorro feliz</h6>
-							<h6 class="card-text">Estado: Ba</h6>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px">
-						<div class="card-body">
-							<h2 class="card-title">Nome: Jorge</h2>
-							<h6 class="card-text">Ong: Cachorro feliz</h6>
-							<h6 class="card-text">Estado: Ba</h6>
+							<h5 class="card-title">Nome: Jorge</h5>
+							<p class="card-text">Ong: Cachorro feliz</p>
+							<p class="card-text">Estado: Ba</p>
 						</div>
 					</div>
 				</div>
+				<!-- Botão de Visualizar mais -->
 				<div class="d-grid gap-2 col-2 mx-auto pt-5 mb-5">
 					<button class="btn btn btn-primary" type="button">Visualizar mais animais</button>
 				</div>
