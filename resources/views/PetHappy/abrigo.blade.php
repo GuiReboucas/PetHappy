@@ -314,7 +314,7 @@
                                         <div class="card-body mx-auto pet-img">
                                             <img src="img/animais/gato3.jpg" class="card-img-top pet-card" alt="...">
                                             <h5 class="card-title">Emanuelle</h5>
-                                            <p class="card-text">Sempre emburrada, não é de muito carinho, mas tásempre por perto. Fica na dela e não causa muita confusão. Não castrada.</p>
+                                            <p class="card-text">Sempre emburrada, não é de muito carinho, mas tá sempre por perto. Fica na dela e não causa muita confusão. Não castrada.</p>
                                             <p class="card-text"><small class="text-muted">Siamesa de 9 meses</small></p>
                                         </div>
                                     </div>
