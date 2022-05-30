@@ -29,6 +29,6 @@ class Abrigo extends Model
         'cnpj',
         'local',
         'endereco',
-        'animal_id',
+        'animais_id',
     ];
 }
