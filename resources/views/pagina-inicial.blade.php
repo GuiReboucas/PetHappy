@@ -48,46 +48,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
-					<div class="card border cardAnimais">
-						<img class="card-img-top" style="max-width: 100%; height: 200px; " src="./img/pagina-inicial/cachorro.jpg" alt="Imagem do Animal">
-						<div class="card-body">
-							<h5 class="card-title">Nome: Jorge</h5>
-							<p class="card-text mb-0">ONG: Cachorro feliz</p>
-							<p class="card-text">Estado: Ba</p>
-						</div>
-					</div>
-				</div>
-				<div class="col">
-					<div class="card border cardAnimais">
-						<img class="card-img-top" style="max-width: 100%; height: 200px; " src="./img/pagina-inicial/cachorro.jpg" alt="Imagem do Animal">
-						<div class="card-body">
-							<h5 class="card-title">Nome: Jorge</h5>
-							<p class="card-text mb-0">ONG: Cachorro feliz</p>
-							<p class="card-text">Estado: Ba</p>
-						</div>
-					</div>
-				</div>
-				<div class="col">
-					<div class="card border cardAnimais">
-						<img class="card-img-top" style="max-width: 100%; height: 200px; " src="./img/pagina-inicial/cachorro.jpg" alt="Imagem do Animal">
-						<div class="card-body">
-							<h5 class="card-title">Nome: Jorge</h5>
-							<p class="card-text mb-0">ONG: Cachorro feliz</p>
-							<p class="card-text">Estado: Ba</p>
-						</div>
-					</div>
-				</div>
-				<div class="col">
-					<div class="card border cardAnimais">
-						<img class="card-img-top" style="max-width: 100%; height: 200px; " src="./img/pagina-inicial/cachorro.jpg" alt="Imagem do Animal">
-						<div class="card-body">
-							<h5 class="card-title">Nome: Jorge</h5>
-							<p class="card-text mb-0">ONG: Cachorro feliz</p>
-							<p class="card-text">Estado: Ba</p>
-						</div>
-					</div>
-				</div>
 				<!-- Fim do Loop -->
 			</div>
 			<!-- Botão de Visualizar + -->
