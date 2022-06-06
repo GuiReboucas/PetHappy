@@ -44,14 +44,18 @@
 					<div class="collapse navbar-collapse" id="navbar-links">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a href="#" class="nav-link active" aria-current="page" id="home-menu">Pagina Inicial</a>
+								<a href="/" class="nav-link active" aria-current="page" id="home-menu">Pagina Inicial</a>
 							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link" id="on-menu">Sobre</a>
+								<a href="sobre" class="nav-link" id="on-menu">Sobre</a>
 							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link" id="institutions-menu">Instituições</a>
+								<a href="animais" class="nav-link" id="institutions-menu">Animais</a>
 							</li>
+							<li class="nav-item">
+								<a href="instituicoes" class="nav-link" id="institutions-menu">Instituições</a>
+							</li>
+							
 							<li class="nav-item">
 								<a href="#" class="nav-link" id="help-menu">Ajudar</a>
 							</li>

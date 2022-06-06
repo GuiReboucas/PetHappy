@@ -21,3 +21,10 @@
 .card-text{  
   font-size: 15px;
 }  
+
+#cad-animais-container{
+  padding: 30px;
+}
+#cad-animais-container label{
+  font-weight: bold;
+}

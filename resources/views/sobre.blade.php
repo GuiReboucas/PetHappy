@@ -8,4 +8,19 @@
 
 @section('content')
 
+<body>
+
+	
+PAGINA SOBRE
+
+
+
+
+
+</body>
+
+
+
+
+
 @endsection

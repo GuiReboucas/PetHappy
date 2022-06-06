@@ -5,6 +5,12 @@
 <body>
 
 
+<div id="cad-animais-container" class="col-md-6 offset-md-3">
+  <h1>Cadastre o animal</h1>
+  <form action="">
+
+  </form>
+</div>
 
 
 
@@ -12,8 +18,7 @@
 
 
 
-
-INSTITUIÇOES
+Animais
 
     
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

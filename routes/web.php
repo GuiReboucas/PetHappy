@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AnimaisController;
+use App\Models\AnimaisModel;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,14 +15,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function() {
-    return view('pagina-inicial');
-});
+//  Route::get('sobre', [AnimaisController::class, 'index']);
+
+ Route::get('/', [AnimaisController::class, 'index']);
+// Route::resource('/sobre', AnimaisController::class);
 
 Route::get('sobre', function() {
     return view('sobre');
+}); 
+Route::get('animais', function() {
+    return view('animais');
 }); 
 
 Route::get('instituicoes', function() {
     return view('instituicoes');
 });
+
+Route::get('/cadastro/cadastroAnimais',[AnimaisController::class,'create']);
+Route::post('cadastro', [AnimaisController::class,'store']);
+

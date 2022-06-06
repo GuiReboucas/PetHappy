@@ -1,0 +1,7 @@
+#cad-animais-container{
+    padding: 30px;
+  }
+  #cad-animais-container label{
+    font-weight: bold;
+    color: blue;
+  }

@@ -15,7 +15,7 @@
 		auctor. Nullam tempus nibh in mi placerat, eget molestie odio laoreet. Nulla metus augue, auctor
 		at libero quis, sagittis blandit lectus. Curabitur commodo dui lacus, nec laoreet orci semper non.
 		Suspendisse laoreet volutpat tincidunt. Aenean posuere pretium nisl.</p>
-		<button type="button" class="btn btn-outline-dark rounded-pill px-4 mt-2"">Torne-se Nosso Parceiro</button>
+		<button type="button" class="btn btn-outline-dark rounded-pill px-4 mt-2">Torne-se Nosso Parceiro</button>
 	</div>
 
 	<!-- Introdução -->
@@ -38,13 +38,60 @@
 				</div>
 				<!-- Cards -->
 				<div class="card-group">
+					<div class="card border tamanhoCard rounded-9">
+						<img class="card-img-top rounded-9" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px;border-radius: 30px 30px 0px 0px"  >
+						<div class="card-body " >
+						  <h2 class="card-title">Nome: Jorge</h2>
+						  <h6 class=".card-subtitle">Ong: Cachorro feliz</h6>
+						  <h6 class=".card-subtitle">Estado: Ba</h6>
+						</div>
+					  </div>
+					  
+					  <div id="animais-container" class="col-md-12">
+						  <h2>Animais</h2>
+						  <p class="subtitle">Veja totos os animais</p>
+						  <div class="cards-container" class="row">
+							  @foreach($animais as $animal)
+							  <div class="card col-md-3">
+									<img src="/img/events/{{$animal->image}}" alt="{{$animal->nome}}">
+									<div class="card-body">
+										<h3>Nome: {{$animal->nome}} </h3>
+										<p>Especie:{{ $animal->especie}}</p>
+										<p>Raca: {{$animal->raca}}</p>
+										<p> Sexo: {{$animal->sexo}}</p>
+										<a href="#" class="btn btn-primary">Detalhes</a>
+									</div>
+							  </div>
+							  @endforeach
+						  </div>
+					  </div>
+
+
+
+
 					<div class="card border" style="width: 200px; height: 350px;">
 						<img class="card-img-top" src="" alt="Imagem do Animal">
 						<div class="card-body">
-							<h5 class="card-title">Nome: Jorge</h5>
-							<p class="card-text">Ong: Cachorro feliz</p>
-							<p class="card-text">Estado: Ba</p>
+							@foreach ($animais as $animal)
+									
+							<h3>Nome: {{$animal->nome}}    </h3>
+							<p>Especie:{{ $animal->especie}}</p>
+							<p>Raca: {{$animal->raca}}</p>
+							<p> Sexo: {{$animal->sexo}}</p>
+							<br>
+						@endforeach
 						</div>
+					</div>
+					<div class="card border tamanhoCard">
+						@foreach ($animais as $animal)
+									
+							<h3>Nome: {{$animal->nome}}    </h3>
+							<p>Especie:{{ $animal->especie}}</p>
+							<p>Raca: {{$animal->raca}}</p>
+							<p> Sexo: {{$animal->sexo}}</p>
+							<br>
+						@endforeach
+							
 					</div>
 				</div>
 				<!-- Botão de Visualizar mais -->
