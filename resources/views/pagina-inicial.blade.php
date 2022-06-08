@@ -3,7 +3,7 @@
 @section('title', 'Página Inicial')
 
 @section('styles')
-<link rel="stylesheet" href="./css/paginaInicial.css">
+	<link rel="stylesheet" href="./css/paginaInicial.css">
 @endsection
 
 @section('content')

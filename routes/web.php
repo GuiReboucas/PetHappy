@@ -15,12 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function() {
     return view('pagina-inicial');
-});
+})->name('pagina-inicial.view');
 
 Route::get('sobre', function() {
     return view('sobre');
-}); 
+})->name('sobre.view'); 
 
 Route::get('instituicoes', function() {
     return view('instituicoes');
 });
+
+// Rota temporaría apenas para demonstração
+Route::get('usuario-show', function() {
+    return view('usuario.show');
+})->name('usuario.show');
+
+Route::get('relatorio', function() {
+    return view('relatorio');
+})->name('relatorio');

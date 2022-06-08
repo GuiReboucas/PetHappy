@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Radio Canada', sans-serif;
+
+}
+
+.container-relatorio {
+    border: 10px groove blue;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+#box-relatorio h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+#box-relatorio p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#box-botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box-botoes button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+#box-botoes button:hover {
+    transform: scaleX(1.5) scaleY(1.5);
+}

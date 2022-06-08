@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Gerais */
-body{
+body {
     font-family: 'Roboto', sans-serif;
     padding-top: 104.062px;
 }
+
 /* Rodapé */
 .colorFooter{
     background-color: #79797933;
