@@ -1,13 +1,13 @@
-@extends('layouts.app')
+@extends('PetHappy.layouts.main')
 
-@section('title', 'Novo Animal')
+@section('title', 'Novo Abrigo')
 
 @section('content')
 <div class="container" style="width: 440px;">
-    <h1 class="m-2 fs-3 alert alert-dark bg-dark text-light text-center">Cadastrar Novo Animal</h1>
+    <h1 class="fs-3 alert alert-dark bg-dark text-light text-center">Cadastrar Novo Abrigo</h1>
 </div>
 <div class="container mt-1 bg-dark rounded" style="width: 400px;">
-    <form action="{{ route('animais-store') }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('abrigos-store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
             <div class="form-group">
@@ -98,7 +98,7 @@
         <div class="container mt-1" style="width: 440px;">
             <div class="form-group">
                 <input type="submit" class="btn btn-primary m-2 text-light" name="submit">
-                <a href="{{ route('animais-index')}}" class="btn btn-success m-2 text-light">Voltar</a>
+                <a href="{{ route('abrigos-index')}}" class="btn btn-success m-2 text-light">Voltar</a>
             </div>
         </div>
     </form>

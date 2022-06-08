@@ -27,7 +27,7 @@ class AbrigosController extends Controller
      */
     public function create()
     {
-        return view('abrigos.create');
+        return view('PetHappy.abrigos.create');
     }
 
     /**
@@ -74,7 +74,7 @@ class AbrigosController extends Controller
             'animais_id' => $request['animais_id'],
         ]);
         $abrigos = Abrigo::all();
-        return view('abrigos.index', compact('abrigos'));
+        return view('PetHappy.abrigos.index', compact('abrigos'));
     }
 
     /**

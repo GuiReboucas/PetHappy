@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AbrigosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('PetHappy/abrigo');
+    return view('PetHappy/abrigos');
 });
 
 Route::get('pagina-inicial', function() {
