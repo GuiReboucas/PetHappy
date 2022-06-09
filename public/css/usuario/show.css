@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Roboto:wght@100&display=swap');
 
-main {
+* {
     font-family: 'Radio Canada', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,6 +8,7 @@ main {
 
 body {
     background-color: rgb(216, 215, 215);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav_tabs {
@@ -65,7 +66,7 @@ body {
     display: block;
 }
 
-main > h1 {
+h1 {
     margin: 50px;
     font-size: 70px;
 }
@@ -81,7 +82,8 @@ thead {
     background-color: #9900F0;
 }
 
-main > h2 {
+thead,
+h2 {
     color: #9900F0;
 }
 
@@ -366,7 +368,7 @@ h5 {
     border-style: solid;
     border-width: 3px;
     box-shadow: 5px 5px 5px #F900BF;
-    background-image: url(/Local\ usuário/img/Pessoa_1.png);
+    background-image: url(./img/usuario/show/Pessoa_1.png);
     background-size: cover;
     transition-property: transform,box-shadow;
     transition-duration: 1s;

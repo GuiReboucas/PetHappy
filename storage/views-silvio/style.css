@@ -1,0 +1,176 @@
+.siteBlindado{
+    height: 100px;
+    width: 200px;
+    margin-left: 85%;
+    margin-bottom: 20%;
+
+
+}
+.text-uppercase{
+    font-weight: bold;
+}
+.list-unstyled{
+    margin-top: 20px;
+}
+.iconesFooter img{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+
+}
+.iconesFooterPetHappy img{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    display:inline-block;
+    vertical-align:top;
+
+}
+.iconesFooterPetHappy p{
+    margin-top: 15px;
+
+    display:inline-block;
+}
+.fd li{
+    margin-top: 20px;
+}
+.rt{
+    margin: 25px;
+}
+.logo {
+    align-items: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.menu a{
+
+    font-size: 30px;
+    margin: 10px;
+    color: red;
+}
+
+.card-group{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.abrigo{
+    /* width: 100%; */
+    margin-top: 50px;
+}
+
+.logo{
+    margin: 0 auto;
+    align-items: center;
+    box-shadow: inset 0 0 0.1em #9900f0, 0 0 0.2em #9900f0;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+}
+
+.card-img{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: inset 0 0 1em #9900f0, 0 0 1em #9900f0;
+}
+
+.img{
+    margin-top: 10px;
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+}
+
+.d-block{
+
+    height: 200px;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 100px;
+}
+
+.historia{
+    font-size: 12px;
+    height: auto;
+    box-shadow: inset 0 0 0.2em #9900f0, 0 0 0.2em #9900f0;
+}
+
+.horario{
+    width: 310px;
+    font-size: 12px;
+    box-shadow: inset 0 0 0.2em #9900f0, 0 0 0.2em #9900f0;
+}
+
+.mapa{
+    height: 100%;
+}
+
+.mapa2{
+    height: 110%;
+    box-shadow: inset 0 0 1em #9900f0, 0 0 0.2em #9900f0;
+}
+
+.local{
+    box-shadow: inset 0 0 1em #9900f0, 0 0 0.2em #9900f0;
+}
+
+.card-body{
+    width: 100%;
+    margin: auto;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.trabalhos{
+    box-shadow: inset 0 0 0.1em #9900f0, 0 0 0.2em #9900f0;
+}
+
+.fotoEquipe{
+    box-shadow: inset 0 0 1em #9900f0, 0 0 1em #9900f0;
+}
+
+#imgBanner{
+    border-radius: 10%;
+}
+
+#banner{
+    box-shadow: inset 0 0 1em #9900f0, 0 0 1em #9900f0;
+    border-radius: 10%;
+}
+
+.local{
+    height: 200px;
+}
+
+i{
+    font-size: 40px;
+    color: #9900f0;
+}
+
+.pets{
+    box-shadow: inset 0 0 0.1em #9900f0, 0 0 0.2em #9900f0;
+}
+
+.pet-card{
+    width: 100%;
+    height: 250px;
+}
+
+.pet-img{
+    box-shadow: inset 0 0 0.1em #9900f0, 0 0 0.2em #9900f0;
+}
