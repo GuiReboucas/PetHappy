@@ -51,6 +51,7 @@
           </div>
         </div>
       </nav>
+    </div>
   </header>
 
   <!-- Repetidor da main nas outras paginas(section)-->
