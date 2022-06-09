@@ -17,86 +17,29 @@
 		Suspendisse laoreet volutpat tincidunt. Aenean posuere pretium nisl.</p>
 		<button type="button" class="btn btn-outline-dark rounded-pill px-4 mt-2">Torne-se Nosso Parceiro</button>
 	</div>
-
-	<!-- Introdução -->
-	<!-- <div class="container justify-content-start my-5">
-		<h3>Boas Vindas</h3>
-		<p class="text-wrap" style="font-size: 13px; width: 65%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed nibh ante. 
-			Vestibulum at lorem vel augue tristique consectetur. Pellentesque sed convallis neque. 
-			Suspendisse posuere sollicitudin leo, rutrum elementum ipsum posuere nec. 
-			Maecenas dictum mattis odio eu volutpat. Phasellus dictum accumsan molestie. Etiam convallis luctus eleifend. 
-			Sed iaculis mi quam, eu tincidunt quam elementum vel.</p>
-	</div> -->
-
 	<!-- Conheça alguns dos nosso amiguinhos -->
-	<div class="container-fluid my-3" style="width: 95%;">
-		<div class="row">
-			<div class="col-md-12 rounded" style="background-color: rgb(255, 228, 196);">
-				<!-- Titulo -->
-				<div class="col-md-12 text-center">
+
+	<div class="container-fluid o ">
+		<div class="row ">
+			<div class="col-md-12 colorCard ">
+				<div class="col-md-12 text-center ">
 					<h1 class="top_s">Conheça alguns dos nossos amiginhos!</h1>
 				</div>
-				<!-- Cards -->
-				<div class="card-group">
-					<div class="card border tamanhoCard rounded-9">
-						<img class="card-img-top rounded-9" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px;border-radius: 30px 30px 0px 0px"  >
-						<div class="card-body " >
-						  <h2 class="card-title">Nome: Jorge</h2>
-						  <h6 class=".card-subtitle">Ong: Cachorro feliz</h6>
-						  <h6 class=".card-subtitle">Estado: Ba</h6>
-						</div>
-					  </div>
-					  
-					  <div id="animais-container" class="col-md-12">
-						  <h2>Animais</h2>
-						  <p class="subtitle">Veja totos os animais</p>
-						  <div class="cards-container" class="row">
-							  @foreach($animais as $animal)
-							  <div class="card col-md-3">
-									<img src="/img/events/{{$animal->image}}" alt="{{$animal->nome}}">
-									<div class="card-body">
-										<h3>Nome: {{$animal->nome}} </h3>
-										<p>Especie:{{ $animal->especie}}</p>
-										<p>Raca: {{$animal->raca}}</p>
-										<p> Sexo: {{$animal->sexo}}</p>
-										<a href="#" class="btn btn-primary">Detalhes</a>
-									</div>
-							  </div>
-							  @endforeach
-						  </div>
-					  </div>
+				<div class="card-group   ta m-4">
 
-
-
-
-					<div class="card border" style="width: 200px; height: 350px;">
-						<img class="card-img-top" src="" alt="Imagem do Animal">
-						<div class="card-body">
-							@foreach ($animais as $animal)
-									
-							<h3>Nome: {{$animal->nome}}    </h3>
-							<p>Especie:{{ $animal->especie}}</p>
-							<p>Raca: {{$animal->raca}}</p>
-							<p> Sexo: {{$animal->sexo}}</p>
-							<br>
-						@endforeach
-						</div>
-					</div>
-					<div class="card border tamanhoCard">
-						@foreach ($animais as $animal)
-									
-							<h3>Nome: {{$animal->nome}}    </h3>
-							<p>Especie:{{ $animal->especie}}</p>
-							<p>Raca: {{$animal->raca}}</p>
-							<p> Sexo: {{$animal->sexo}}</p>
-							<br>
-						@endforeach
-							
+				@foreach($animais as $animal)
+				<div class="card border tamanhoCard d-flex align-itens-center justify-content-center text-center ">
+					<div class="card-body ">
+					
+					
+						<th><img src="/img/events/{{ $animal->image }}" class="img-fluid" alt="{{ $animal->image }}" style="height: 150px "></th>
+						<h4 scope="row">{{$animal->nome}}</h4>
+						<h6>{{ $animal->especie }}</h6>
+						<h6>{{ $animal->raca }}</h6>
+						<button type="button" class="btn btn-primary m-4">Conhecer</button>		   
 					</div>
 				</div>
-				<!-- Botão de Visualizar mais -->
-				<div class="d-grid gap-2 col-2 mx-auto pt-5 mb-5">
-					<button class="btn btn btn-primary" type="button">Visualizar mais animais</button>
+				@endforeach
 				</div>
 			</div>
 		</div>
@@ -108,7 +51,7 @@
 		<div class="card mb-4" style="max-height: 140px;">
 			<div class="row g-0">
 				<div class="col-md-3">
-					<img src="./img/cachorro.jpg" class="img-fluid rounded-start" alt="..." style="max-height: 140px; width:240px ;">
+					<img src=".\img\pagina-inicial\pqAdotarGato.jpg" class="img-fluid rounded-start" alt="..." style="max-height: 140px; width:240px ;">
 				</div>
 				<div class="col-md-9">
 					<div class="card-body">
@@ -131,7 +74,7 @@
 					</div>
 				</div>
 				<div class="col-md-auto ">
-					<img src="./img/cachorro.jpg" class="img-fluid " alt="..." style="max-height: 140px; width:240px ; ">
+					<img src="./img\pagina-inicial\pqAdotarDog.jpg" class="img-fluid " alt="..." style="max-height: 140px; width:240px ; ">
 				</div>
 			</div>
 		</div>
@@ -141,7 +84,7 @@
 		<div class="card mb-4" style="max-height: 140px;">
 			<div class="row g-0">
 				<div class="col-md-3">
-					<img src="./img/cachorro.jpg" class="img-fluid rounded-start" alt="..." style="max-height: 140px; width:240px ; ">
+					<img src=".\img\pagina-inicial\pqAdotarAbrigo.jpg" class="img-fluid rounded-start" alt="..." style="max-height: 140px; width:240px ; ">
 				</div>
 				<div class="col-md-9">
 					<div class="card-body">
@@ -169,7 +112,7 @@
 
 			<div class="col-md-4  ">
 				<div class="card oe  " style="max-height: 170px; max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\pix.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Pix</h5>
 					</div>
@@ -178,7 +121,7 @@
 
 			<div class="col-md-4 ">
 				<div class="card oe" style="max-height: 170px; max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\tranferBankColor.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Transferência bancária</h5>
 					</div>
@@ -186,7 +129,7 @@
 			</div>
 			<div class="col-md-4 ">
 				<div class="card oe" style="max-height: 170px;max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\dinheiroEspecieColor.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Em espécie</h5>
 					</div>
@@ -199,7 +142,7 @@
 
 			<div class="col-md-3  ">
 				<div class="card oe  " style="max-height: 170px; max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\compartilhar.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Divulge-nos</h5>
 					</div>
@@ -208,7 +151,7 @@
 
 			<div class="col-md-2 ">
 				<div class="card oe" style="max-height: 170px; max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\brinquedosDogs.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Doe brinquedos</h5>
 					</div>
@@ -217,7 +160,7 @@
 
 			<div class="col-md-2 ">
 				<div class="card oe" style="max-height: 170px;max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\comidaDogs.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Doe alimentos</h5>
 					</div>
@@ -226,7 +169,7 @@
 
 			<div class="col-md-2 ">
 				<div class="card oe" style="max-height: 170px;max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\remedioDogs.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Doe remédios</h5>
 					</div>
@@ -235,7 +178,7 @@
 
 			<div class="col-md-2 ">
 				<div class="card oe" style="max-height: 170px;max-width:130px ; ">
-					<a href="#"><img src="./img/cachorro.jpg" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
+					<a href="#"><img src=".\img\pagina-inicial\siganos.png" class="card-img-top" alt="..." style="max-height: 100px; width:130px ; "></a>
 					<div class="card-body">
 						<h5 class="card-text text-center">Junte-se a nós</h5>
 					</div>
@@ -252,54 +195,28 @@
 		<div class="row ">
 			<div class="col-md-12 colorCard ">
 				<div class="col-md-12 text-center ">
-					<h1 class="top_s">Instituições Parceiras!</h1>
+					<h1 class="top_s">Conheça as Instituições parceiras!</h1>
 				</div>
 				<div class="card-group   ta m-4">
 
-					<div class="card border tamanhoCard d-flex align-itens-center justify-content-center text-center ">
-						<img class="card-img-top " src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px;border-radius: 30px 30px 0px 0px">
-						<div class="card-body ">
-							<h2 class="card-title">Nome</h2>
-							<button type="button" class="btn btn-primary m-4">Detalhes</button>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard d-flex align-itens-center justify-content-center text-center">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap " style="height: 200px">
-						<div class="card-body">
-							<h2 class="card-title">Nome</h2>
-							<button type="button" class="btn btn-primary m-4">Detalhes</button>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard d-flex align-itens-center justify-content-center text-center">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px">
-						<div class="card-body">
-							<h2 class="card-title">Nome</h2>
-							<button type="button" class="btn btn-primary m-4">Detalhes</button>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard d-flex align-itens-center justify-content-center text-center">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px">
-						<div class="card-body">
-							<h2 class="card-title">Nome</h2>
-							<button type="button" class="btn btn-primary m-4 ">Detalhes</button>
-						</div>
-					</div>
-
-					<div class="card border tamanhoCard d-flex align-itens-center justify-content-center text-center">
-						<img class="card-img-top" src="./img/cachorro.jpg" alt="Card image cap" style="height: 200px">
-						<div class="card-body">
-							<h2 class="card-title">Nome</h2>
-							<button type="button" class="btn btn-primary m-4">Detalhes</button>
-						</div>
+				@foreach($abrigos as $abrigo)
+				<div class="card border tamanhoCard d-flex align-itens-center justify-content-center text-center ">
+					<div class="card-body ">
+					
+					
+						<th><img src="/img/events/{{ $abrigo->image }}" class="img-fluid" alt="{{ $abrigo->image }}" style="height: 150px "></th>
+						<h4 scope="row">{{$abrigo->razaoSocial}}</h4>
+						<h6>{{ $abrigo->cnpj }}</h6>
+						<h6>{{ $abrigo->cidade }}</h6>
+						<button type="button" class="btn btn-primary m-4">Conhecer</button>		   
 					</div>
 				</div>
-			</div>
-			<div class="d-grid gap-2 col-3 mx-auto pt-5 mb-5">
-				<button class="btn btn btn-primary" type="button">Visualizar mais Parceiros</button>
+				@endforeach
+				</div>
+				<div class="d-grid gap-2 col-3 mx-auto pt-5 mb-5">
+					<button class="btn btn btn-primary" type="button">Visualizar mais Parceiros</button>
+				</div>
 			</div>
 		</div>
-	</div>
+	</div>				
 @endsection

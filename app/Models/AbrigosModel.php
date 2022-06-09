@@ -22,7 +22,8 @@ class AbrigosModel extends Model
         'bairro',
         'cep',
         'cidade',
-        'numeroResidencia'
+        'numeroResidencia',
+        'animais_id'
         
 
     ];
