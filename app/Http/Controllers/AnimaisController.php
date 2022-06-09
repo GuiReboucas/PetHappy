@@ -14,9 +14,9 @@ class AnimaisController extends Controller
     {
         $animais =AnimaisModel::all();
         $abrigos =AbrigosModel::all();
-        // return view('sobre',['animais' => $animais]);
+       
+        return view('pagina-inicial',['abrigos' => $abrigos,'animais' => $animais]);
         return view('animais',['abrigos' => $abrigos,'animais' => $animais]);
-        // return view('sobre',['animais' => $animais]);
        
 
     }

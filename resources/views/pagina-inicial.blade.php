@@ -17,6 +17,7 @@
 		Suspendisse laoreet volutpat tincidunt. Aenean posuere pretium nisl.</p>
 		<button type="button" class="btn btn-outline-dark rounded-pill px-4 mt-2">Torne-se Nosso Parceiro</button>
 	</div>
+
 	<!-- Conheça alguns dos nosso amiguinhos -->
 
 	<div class="container-fluid o ">
