@@ -4,21 +4,7 @@
   height: 350px;
 }
 
-.colorCard{
-  padding-top: 20px;
-  border-radius: 30px;
-  background-color: rgb(255, 228, 196);
-}
-
-/*  PQ ADOTAR */
-.pdCard{
-  padding: 0px 70px;
-}
-
 /* AJUDE NOSSOS PARCEIROS */
-.oe{
-  margin: 0 auto;
-}
 .card-text{  
   font-size: 15px;
 }  
