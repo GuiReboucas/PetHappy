@@ -1,0 +1,9 @@
+/* Gerais */
+body{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 104.062px;
+}
+/* Rodapé */
+.colorFooter{
+    background-color: #79797933;
+}

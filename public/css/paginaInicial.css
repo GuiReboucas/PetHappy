@@ -1,39 +1,4 @@
-/* Slide */
-
-.oneSlyde{
-
-  padding-top: 50px;
-  background-color: aqua;
-    
-}
-.oneSlyde button{
-  background-color: red;
-  margin-bottom: 10%;
-}
-.oneSlydeTitulo{
-  margin-top: 5%;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-}
-.oneSlydeParagrafo{
-  text-align: center;
-  margin: 5%;
-  font-size: 20px;
-}
-
 /* Cards Conheça nossos amiguinhos */
-
-.card{
-  padding: 0;
-  margin: 1%;
-
-}
-.tituloCard{
-    font-size: 50px;
-    text-align: center;
-    
-}
 .o{
   padding-top: 100px;
   margin-bottom: 200px;
@@ -41,31 +6,25 @@
 .colorCard{
   padding-top: 20px;
   border-radius: 30px;
-  background-color: bisque;
+  background-color: rgb(255, 228, 196);
 }
-.tamanhoCard{  
-  height: 350px;
-  align-items:right;
-}
-
 
 /*  PQ ADOTAR */
-
-
 .pdCard{
   padding: 0px 70px;
 }
 
-
-
 /* AJUDE NOSSOS PARCEIROS */
-
 .oe{
   margin: 0 auto;
 }
 .card-text{  
   font-size: 15px;
+}  
+
+#cad-animais-container{
+  padding: 30px;
 }
-
-
-  
+#cad-animais-container label{
+  font-weight: bold;
+}
