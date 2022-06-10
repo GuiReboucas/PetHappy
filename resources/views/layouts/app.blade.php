@@ -8,13 +8,20 @@
 	<title>@yield('title')</title>
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
 	@yield('fonts')
 	<!--Bootstrap-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<!--CSS-->
 	<link rel="stylesheet" href="./css/app.css">
+    <link href="./css/styles.css" rel="stylesheet"/>
+	<link rel="icon" type="svg" href="./img/pagina-inicial/icons/PetHappyMinimalIcon.svg"/>
 	@yield('styles')
 	<!-- Icons-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	@yield('icons')
 </head>
@@ -36,7 +43,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
 					<li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('pagina-inicial.view') }}">Página Inicial</a></li>
-					<li class="nav-item"><a class="nav-link me-lg-3" href="#">Animais</a></li>
+					<li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('animal.index') }}">Animais</a></li>
 					<li class="nav-item"><a class="nav-link me-lg-3" href="#">Ongs</a></li>
 					<li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('sobre.view') }}">Sobre</a></li>
 					<li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('relatorio') }}">Relatório</a></li>
@@ -167,6 +174,13 @@
 	<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 	<!-- Icons -->
 	<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+	<!-- Core theme JS-->
+    <script src="./js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 	<!-- Page Scripts -->
 	@yield('scripts')
 </body>

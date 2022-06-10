@@ -1,0 +1,279 @@
+
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+:root 
+{
+  scroll-behavior: smooth;
+}
+
+* 
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+}
+
+a
+{
+  text-decoration: none;
+  color: #4700D8;
+}
+
+a:hover
+{
+  color: #9900F0;
+}
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Coluna 1
+--------------------------------------------------------------*/
+#logo
+{
+  position: absolute;
+  width: 10vw;
+  height: 5vh;
+  left: 2%;
+  top: 2%;
+}
+
+#galeria
+{
+  width: 90%;
+  height: 75%;
+  padding-bottom: 5vh;
+  position: relative;
+}
+
+#galeria img
+{
+  border: 1px solid #000000;
+}
+
+#line-1
+{
+  position: absolute;
+  width: 20vmin;
+  height: 0.15vmin;
+  right: 0;
+  background: #000000;
+}
+
+#line-2
+{
+  position: absolute;
+  width: 0.15vmin;
+  height: 20vmin;
+  right: 0;
+  background: #000000;
+}
+
+#line-3
+{
+  position: absolute;
+  width: 10vmin;
+  height: 0.15vmin;
+  left: 0;
+  bottom: 0;
+  background: #000000;
+}
+
+#line-4
+{
+  position: absolute;
+  width: 0.15vmin;
+  height: 10vmin;
+  left: 0;
+  bottom: 0;
+  background: #000000;
+}
+
+#foto-principal
+{
+  margin-top: 5vh;
+  width: 90%;
+  height: 70%;
+}
+
+#foto-principal img
+{
+  width: 100%;
+  height: 100%;
+}
+
+#fotos
+{
+  width: 90%;
+  height: 20%;
+  opacity: 70%;
+}
+
+#fotos .col
+{
+  width: 50%;
+  height: 100%;
+  margin-top: 2vmin;
+}
+
+#foto-1
+{
+  margin-right: 2vmin;
+}
+
+#foto-1 img
+{
+  width: 100%;
+  height: 100%;
+  box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+}
+
+#foto-2 img
+{
+  width: 100%;
+  height: 100%;
+  box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+}
+
+#foto-3
+{
+  margin-left: 2vmin;
+}
+
+#foto-3 img
+{
+  width: 100%;
+  height: 100%;
+  box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+}
+/*--------------------------------------------------------------
+# Coluna 1
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Coluna 2
+--------------------------------------------------------------*/
+#card
+{
+  background-image: url(../images/backgrounds/cadastro-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: -10px 10px 25px 0px rgba(0,0,0,0.3);
+  height: 90%;
+  width: 60%;
+  color: #FFFFFF;
+}
+
+#nome
+{
+  margin-top: 1.5vh;
+  font-weight: bold;
+}
+
+#dados
+{
+  text-align: justify;
+}
+
+#dados h3
+{
+  font-weight: bold;
+  font-size: 2vmin;
+}
+
+#dados p
+{
+  font-size: 1.5vmin;
+}
+
+#adotar
+{
+  width: 90%;
+  padding: 2.5vh 2.5vw;
+  transition: 0.5s;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #4700D8;
+  background: #FFFFFF;
+}
+
+#adotar:hover
+{
+  border: #FFFFFF 1px solid;
+  transition: 0.5s;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+#adotar #texto-adotar
+{
+  font-size: 2vmin;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/*--------------------------------------------------------------
+# Coluna 2
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/
+@media (prefers-reduced-motion: reduce) 
+{
+  #sec-2 .form-control 
+  {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none; 
+  } 
+}
+
+@media only screen and (max-width: 1216px) 
+{
+  #card
+  {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) 
+{
+  [data-aos-delay] 
+  {
+    transition-delay: 0 !important;
+  }
+}
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/

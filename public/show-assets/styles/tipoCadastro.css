@@ -1,0 +1,195 @@
+
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+:root 
+{
+  scroll-behavior: smooth;
+}
+
+* 
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+}
+
+a
+{
+  text-decoration: none;
+  color: #4700D8;
+}
+
+a:hover
+{
+  color: #9900F0;
+}
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sec-1
+--------------------------------------------------------------*/
+#sec-1
+{
+  background-image: url(../images/backgrounds/login-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sec-1:hover
+{
+  padding-top: 5vmin;
+  transition: 0.3s;
+}
+
+#sec-1 #logo
+{
+  margin-top: 5vh;
+  width: 20vw;
+  height: 20vw;
+}
+
+#sec-1 #titulo-sec-1
+{
+  margin-top: 5vh;
+  font-size: 8vmin;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#sec-1 #botao-saiba-mais
+{
+  width: 25vw;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  padding: 6vh 6vw;
+  transition: 0.5s;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #4700D8;
+  background: #FFFFFF;
+}
+
+#sec-1 #botao-saiba-mais:hover
+{
+  border: #FFFFFF 1px solid;
+  transition: 0.5s;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+#sec-1 #botao-saiba-mais #texto-saiba-mais
+{
+  font-size: 2vmin;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/*--------------------------------------------------------------
+# Sec-1
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sec-2
+--------------------------------------------------------------*/
+#sec-2
+{
+  background-color: #FFFFFF;
+}
+
+#sec-2:hover
+{
+  padding-top: 5vmin;
+  transition: 0.3s;
+}
+
+#sec-2 #logo-sec-2
+{
+  margin-top: 5vh;
+  width: 20vw;
+  height: 20vw;
+}
+
+#sec-2 #titulo-sec-2
+{
+  margin-top: 5vh;
+  font-size: 8vmin;
+  font-weight: bold;
+  color: #4700D8;
+}
+
+#sec-2 #botao-saiba-mais-sec-2
+{
+  width: 25vw;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  padding: 6vh 6vw;
+  transition: 0.5s;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #4700D8;
+}
+
+#sec-2 #botao-saiba-mais-sec-2:hover
+{
+  border: #4700D8 1px solid;
+  transition: 0.5s;
+  color: #4700D8;
+  background: transparent;
+}
+
+#sec-2 #botao-saiba-mais-sec-2 #texto-saiba-mais-sec-2
+{
+  font-size: 2vmin;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/*--------------------------------------------------------------
+# Sec-2
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/
+@media (prefers-reduced-motion: reduce) 
+{
+  #sec-2 .form-control 
+  {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none; 
+  } 
+}
+
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) 
+{
+  [data-aos-delay] 
+  {
+    transition-delay: 0 !important;
+  }
+}
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/

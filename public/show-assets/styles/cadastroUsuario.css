@@ -1,0 +1,182 @@
+
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+:root 
+{
+  scroll-behavior: smooth;
+}
+
+* 
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+}
+
+a
+{
+  text-decoration: none;
+  color: #4700D8;
+}
+
+a:hover
+{
+  color: #9900F0;
+}
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sec-1
+--------------------------------------------------------------*/
+#sec-1 #titulo-sec-1
+{
+  font-size: 5vmin;
+  margin-top: 2vh;
+  color: #000000;
+}
+
+#sec-1 .form-control
+{
+  height: 5vh;
+  margin-top: 2vh;
+  background: transparent;
+  color: #000000 !important;
+  font-size: 1.5vmin;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #000000;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+
+#sec-1 .form-control::placeholder
+{
+  color: #000000;
+  text-align: center;
+}
+
+#sec-1 .form-control:focus
+{
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border-color: #4700D8;
+}
+/*--------------------------------------------------------------
+# Sec-1
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sec-2
+--------------------------------------------------------------*/
+#sec-2
+{
+  background-image: url(../images/backgrounds/cadastro-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sec-2 #logo-sec-2
+{
+  margin-top: 20vh;
+  width: 20vw;
+  height: 20vw;
+}
+
+#sec-2 #botao-saiba-mais-sec-2
+{
+  width: 25vw;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  padding: 5vh 5vw;
+  transition: 0.5s;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #4700D8;
+  background: #FFFFFF;
+}
+
+#sec-2 #botao-saiba-mais-sec-2:hover
+{
+  border: #FFFFFF 1px solid;
+  transition: 0.5s;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+#sec-2 #botao-saiba-mais-sec-2 #texto-saiba-mais-sec-2
+{
+  font-size: 2vmin;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#sec-2 #p1-sec-2
+{
+  font-size: 1.5vmin;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#sec-2 #p2-sec-2
+{
+  font-size: 1.5vmin;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*--------------------------------------------------------------
+# Sec-2
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/
+@media (prefers-reduced-motion: reduce) 
+{
+  #sec-2 .form-control 
+  {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none; 
+  } 
+}
+
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) 
+{
+  [data-aos-delay] 
+  {
+    transition-delay: 0 !important;
+  }
+}
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/

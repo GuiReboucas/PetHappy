@@ -1,0 +1,302 @@
+
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+:root 
+{
+  scroll-behavior: smooth;
+}
+
+* 
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+}
+
+a
+{
+  text-decoration: none;
+  color: #4700D8;
+}
+
+a:hover
+{
+  color: #9900F0;
+}
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sec-1
+--------------------------------------------------------------*/
+#sec-1
+{
+  background-image: url(../images/backgrounds/login-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pet-imagem
+{
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: 25vh;
+}
+
+#sec-1 #logo
+{
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+
+#sec-1 #titulo-sec-1
+{
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font-size: 8vmin;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#sec-1 #descricao
+{
+  margin-left: 5vw;
+  margin-top: 10vh;
+  font-size: 2vmin;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+#sec-1 #botao-saiba-mais
+{
+  margin-left: 5vw;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 6vh 6vw;
+  transition: 0.5s;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #4700D8;
+  background: #FFFFFF;
+}
+
+#sec-1 #botao-saiba-mais:hover
+{
+  margin-left: 5vw;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 7vh 7vw;
+  border: #FFFFFF 1px solid;
+  transition: 0.5s;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+#sec-1 #botao-saiba-mais #texto-saiba-mais
+{
+  font-size: 2vmin;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#sec-1 #botao-saiba-mais #icone-saiba-mais
+{
+  margin-left: 5px;
+  font-size: 2vmin;
+  transition: 0.3s;
+}
+
+#sec-1 #botao-saiba-mais #icone-saiba-mais:hover
+{
+  transform: translateX(5px);
+}
+/*--------------------------------------------------------------
+# Sec-1
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sec-2
+--------------------------------------------------------------*/
+#sec-2 #titulo-sec-2
+{
+  margin-top: 15vh;
+  font-size: 8vmin;
+  font-weight: bold;
+  color: #000000;
+}
+
+#sec-2 .form-group 
+{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#sec-2 .form-group #icone-1,#icone-2 {
+  
+  position: absolute;
+  left: 0;
+  background: transparent;
+  font-size: 2.5vmin;
+  color: #000000; 
+}
+
+#sec-2 #input-1,#input-2
+{
+  height: 5vh;
+  margin-top: 2vh;
+  padding-left: 4vmin;
+  background: transparent;
+  color: #000000 !important;
+  font-size: 1.5vmin;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #000000;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+
+#sec-2 #input-1::placeholder,#input-2::placeholder
+{
+  color: #000000;
+  text-align: center;
+}
+
+#sec-2 #input-1:focus,#input-2:focus, #input-1:active,#input-2:active 
+{
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border-color: #4700D8;
+}
+
+#sec-2 #esqueceu
+{
+  font-size: 1.25vmin;
+}
+
+#sec-2 #btn-acessar
+{
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding: 5vh 6vw;
+  transition: 0.5s;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #000000;
+}
+
+#sec-2 #btn-acessar:hover
+{
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding: 5vh 7vw;
+  border: #000000 1px solid;
+  transition: 0.5s;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #000000;
+  background: transparent;
+}
+
+#sec-2 #cadastrar
+{
+  font-size: 1vmin;
+  font-weight: bold;
+}
+
+#sec-2 #brand
+{
+  font-size: 3vmin;
+  color: #000000;
+  margin: 1vmin;
+}
+
+#sec-2 form
+{
+  margin-top: 10vh;
+}
+/*--------------------------------------------------------------
+# Sec-2
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/
+@media (prefers-reduced-motion: reduce) 
+{
+  #sec-2 .form-control 
+  {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none; 
+  } 
+}
+@media (min-width: 2561px) 
+{
+  #pet-imagem
+  {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+@media (max-width: 1679px) 
+{
+  #pet-imagem
+  {
+    margin-left: 21.5vw;
+    margin-top: 25vh;
+  }
+}
+
+@media (max-width: 1099px) 
+{
+  #pet-imagem
+  {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) 
+{
+  [data-aos-delay] 
+  {
+    transition-delay: 0 !important;
+  }
+}
+/*--------------------------------------------------------------
+# Desabilitar animações em dispositivos móveis
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsividade
+--------------------------------------------------------------*/
