@@ -8,6 +8,7 @@
 	<title>@yield('title')</title>
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	@yield('fonts')
 	<!--Bootstrap-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<!--CSS-->
@@ -15,51 +16,39 @@
 	@yield('styles')
 	<!-- Icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	@yield('icons')
 </head>
 
 <body>
-	<!-- Menu-->
-	<header>
-		<div class="container">
-			<!-- Navbar -->
-			<nav class="navbar navbar-expand-lg bg-light fixed-top">
-				<div class="container-fluid position-relative">
-					<!-- Logomarca -->
-					<a href="#" class="navbar-brand">
-						<img id="logo" src="./img/app-view/Pet Happy Logo 1.svg" alt="Logo PetHappy" width="75" class="d-inline-block align-text">
-						PetHappy
-					</a>
-					<!-- Botão Responsivo -->
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<!-- Nav Links -->
-					<div class="collapse navbar-collapse" id="navbar-links">
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a href="{{ route('pagina-inicial.view') }}" class="nav-link active" aria-current="page" id="home-menu">Pagina Inicial</a>
-							</li>
-							<li class="nav-item">
-								<a href="{{ route('sobre.view') }}" class="nav-link" id="on-menu">Sobre</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link" id="institutions-menu">Instituições</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link" id="help-menu">Ajudar</a>
-							</li>
-							<li>
-								<a href="{{ route('usuario.show') }}" class="nav-link">Usuário - Show</a>
-							</li>
-							<li>
-								<a href="{{ route('relatorio') }}" class="nav-link">Relatório</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+	<!-- Navbar -->
+	<nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" style="background-color: #fff;">
+		<div class="container px-5">
+			<!-- Logomarca -->
+			<a class="navbar-brand fw-bold" href="#page-top">
+				<img src="./img/app-view/logos/PetHappyCompleteLogo.svg" alt="PetHappy Logo">
+			</a>
+			<!-- Links Responsivos -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				Menu
+				<i class="bi-list"></i>
+			</button>
+			<!-- Nav links -->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+					<li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('pagina-inicial.view') }}">Página Inicial</a></li>
+					<li class="nav-item"><a class="nav-link me-lg-3" href="#">Animais</a></li>
+					<li class="nav-item"><a class="nav-link me-lg-3" href="#">Ongs</a></li>
+					<li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('sobre.view') }}">Sobre</a></li>
+					<li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('relatorio') }}">Relatório</a></li>
+				</ul>
+				<button class="btn btn-primary rounded-0 px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+					<span class="d-flex align-items-center">
+						<span class="small">Login</span>
+					</span>
+				</button>
+			</div>
 		</div>
-	</header>
+	</nav>
 
 	<!-- Repetidor da main nas outras paginas(section)-->
 	<!-- Pedir pra Daniel me explicar q zorra é essa 👇 -->

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Roboto:wght@100&display=swap');
 
-* {
+main {
     font-family: 'Radio Canada', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body {
+main {
     background-color: rgb(216, 215, 215);
     font-family: Arial, Helvetica, sans-serif;
 }
