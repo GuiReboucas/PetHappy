@@ -14,10 +14,7 @@
 				<label for="tab1" class="label">Perfil</label>
 				<div class="content container_sobre">
 					<br>
-					<br>
 					<h1>Sobre</h1>
-					<br>
-					<br>
 					<div>
 						<div class="box-icone-sobre">
 							<div class="box-img ">
@@ -95,9 +92,7 @@
 				<input type="radio" name="tabs" class="rd_tabs" id="tab2">
 				<label for="tab2" class="label">Adoções</label>
 				<div class="content" id="container_adocoes">
-					<br>
 					<h1>Meus Pets</h1>
-					<br>
 					<hr>
 					<div class="box-tabs">
 
@@ -110,7 +105,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/cachorro_1.jpg"
-															class="card-img-top w-75 img-card-box-icone rounded-circle"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Ted</h5>
@@ -121,7 +116,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/cachorro_2.jpg"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Pipa</h5>
@@ -132,7 +127,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/cachorro_3.jpg"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Carl</h5>
@@ -148,7 +143,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/cachorro_4.jpg"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Samanta</h5>
@@ -160,7 +155,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/cachorro_5.jpg"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+															class="card-img-top  img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Magda</h5>
@@ -172,7 +167,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/cachorro_6.jpg"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Zuli</h5>
@@ -188,7 +183,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/gato_1.webp"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">João</h5>
@@ -200,7 +195,7 @@
 												<div class="col">
 													<div class="cards">
 														<img src="./img/usuario/show/gato_2.webp"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Jhon</h5>
@@ -211,8 +206,8 @@
 
 												<div class="col">
 													<div class="cards">
-														<img src="/Local usuário/"
-															class="card-img-top w-75  img-card-box-icone rounded-circle"
+														<img src="./img/usuario/show/cachorro_7.jpg"
+															class="card-img-top img-card-box-icone rounded-circle"
 															alt="...">
 														<div class="card-body">
 															<h5 class="card-title">Paulo</h5>
@@ -239,7 +234,6 @@
 							</div>
 							<br>
 							<hr>
-							<br>
 							<h1>Meus Status</h1>
 							<br>
 							<div class="box-pai_2">
